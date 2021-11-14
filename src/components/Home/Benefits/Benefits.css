@@ -1,0 +1,12 @@
+.benefits-header {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: gray;
+}
+
+.benefits-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

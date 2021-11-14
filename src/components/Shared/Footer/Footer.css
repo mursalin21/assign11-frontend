@@ -1,0 +1,51 @@
+.footer-container {
+	background-color: #212529;
+	clear: both;
+	position: relative;
+	padding: 15px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.info-column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.footer-main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.footer-main h5 {
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+.our-hospital {
+	display: flex;
+	flex-direction: column;
+}
+.our-departments {
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+	.footer-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+}
+
+@media only screen and (max-width: 688px) {
+	.footer-container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+	}
+}
